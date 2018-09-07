@@ -1,0 +1,203 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+main {
+	padding-top: 165px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+a {
+	color: #000;
+}
+
+a:hover {
+	/*color: #9B9B9B;*/
+	/*color: #4A4A4A;*/
+	color: #B8B8B8;
+}
+
+nav {
+	background-color: #fff!important;
+}
+
+input {
+	border-radius: 0!important;
+	border: 1px solid #000 !important;
+	color: #000 !important;
+}
+
+button {
+	border-radius: 0!important;
+}
+
+.pt-6 {
+  padding-top: 6rem;
+}
+
+/*-----------------
+	Header
+------------------*/
+#info-bar {
+	font-size: 0.8rem;
+	background-color: #000;
+}
+
+#main-nav {
+	background-color: #fff!important;
+}
+
+.navbar-brand {
+	font-size: 3rem!important;
+	font-weight: 700;
+}
+
+.navbar-nav {
+	font-size: 0.9rem;
+	align-items: baseline;
+}
+
+#shoppingCart {
+	font-size: 1.1rem;
+}
+
+.navbar-nav a {
+	color: #B8B8B8 !important;
+}
+
+#searchForm {
+	border: 1px solid #000 !important;
+}
+
+#searchBox input {
+	border: 1px solid transparent !important;
+	padding: 0 0 0 36px !important;
+	color: #000 !important;
+	width: 400px !important;
+	font-size: 0.8rem !important;
+}
+
+#searchIcon {
+	background-color: #fff !important;
+	border-radius: 0 !important;
+	border: 1px solid transparent !important;
+}
+
+#searchBtn {
+	border: 1px solid transparent !important;
+	border-left: 1px solid #000 !important;
+	font-size: 0.8rem !important;
+}
+
+#searchBtn:hover {
+	background-color: #000;
+}
+
+#shopping:hover {
+	color: #000;
+}
+
+#category-bar {
+	font-size: 0.9rem;
+	font-weight: 700;
+}
+
+/*-----------------
+	Footer
+------------------*/
+#footer-nav {
+	border-top: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
+	font-size: 0.8rem;
+	text-align: right;
+}
+
+.footerTitle {
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+#footerLinks {
+	font-size: 0.8rem;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.footerText {
+	font-size: 0.9rem;
+}
+
+.social {
+	font-size: 2rem;
+}
+
+/*-----------------
+	Home
+------------------*/
+#hero {
+  background-image: url(./../img/sofa.jpg)!important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-color: #FBE680;
+}
+
+.section h5 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.thumb {
+	display: inline-block;
+	text-align: left;
+	font-size: 0.8rem;
+	font-weight: 500;
+}
+
+.thumb img {
+	width: 100%;
+}
+
+/*---------------------------
+	Error Page
+----------------------------*/
+
+.error{
+	opacity: 0;
+	transition: 0.6s;
+	pointer-events: none;
+	position: absolute;
+	left: 0;
+	top: 100px;
+	width: 100%;
+}
+
+.error.visible{
+	opacity: 1;
+}
+
+.error h3{
+	font-size: 40px;
+}
+
+/* SHOPPING CART */
+#cartTitle {
+	color: #fff;
+	background-color: #333333;
+}
+
+.quantity input {
+	height: 3rem;
+	padding: 0.5rem;
+	font-size: 1.2rem;
+	width: 6rem;
+}
+
+.itemBox {
+	font-size: 1.5rem;
+}
